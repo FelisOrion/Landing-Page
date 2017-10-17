@@ -2,31 +2,29 @@ exports.config = {
   // See http://brunch.io/#documentation for docs.
   files: {
     javascripts: {
-      joinTo: "js/app.js"
-
-      // To use a separate vendor.js bundle, specify two files path
-      // http://brunch.io/docs/config#-files-
-      // joinTo: {
-      //   "js/app.js": /^js/,
-      //   "js/vendor.js": /^(?!js)/
-      // }
-      //
-      // To change the order of concatenation of files, explicitly mention here
-      // order: {
-      //   before: [
-      //     "vendor/js/jquery-2.1.1.js",
-      //     "vendor/js/bootstrap.min.js"
-      //   ]
-      // }
+      joinTo: {
+        "js/app.js": /^(js)/,
+				"js/jquery.min.js": ["assets/js/jquery.min.js"],
+        "js/bootstrap.min.js": ["assets/js/bootstrap.min.js"],
+        "js/wow.js": ["assets/js/wow.js"],
+      }
     },
     stylesheets: {
-      joinTo: "css/app.css"
+      joinTo: {
+        "css/app.css": /^(css)/,
+ 			  "css/animate.css": ["assets/css/animate.css"],
+        "css/bootstrap.min.css": ["assets/css/bootstrap.min.css"],
+        "css/style.css": ["assets/css/style.css"],
+        "css/font-awesome.min.css": ["assets/css/font-awesome.min.css"],
+      },
+      order: {
+        after: ["assets/css/app.css"] // concat app.css last
+      }
     },
     templates: {
       joinTo: "js/app.js"
     }
   },
-
   conventions: {
     // This option sets where we should place non-css and non-js assets in.
     // By default, we set this to "/assets/static". Files in this directory
@@ -37,7 +35,7 @@ exports.config = {
   // Phoenix paths configuration
   paths: {
     // Dependencies and current project directories to watch
-    watched: ["static", "css", "js", "vendor", "fonts"],
+    watched: ["static", "css", "js", "vendor"],
     // Where to compile files to
     public: "../priv/static"
   },
@@ -53,6 +51,7 @@ exports.config = {
   modules: {
     autoRequire: {
       "js/app.js": ["js/app"]
+    // whitelist: ["phoenix", "phoenix_html", "jquery", "underscore"]
     }
   },
 

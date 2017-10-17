@@ -38,6 +38,8 @@ defmodule LandingWeb.Endpoint do
     key: "_landing_key",
     signing_salt: "8CUyIDKl"
 
+  plug CORSPlug
+
   plug LandingWeb.Router
 
   @doc """
