@@ -11,5 +11,6 @@ defmodule Landing.Repo.Migrations.CreateContact do
       timestamps()
     end
 
+    create unique_index :contact, [:email]
   end
 end

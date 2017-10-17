@@ -8,5 +8,6 @@ defmodule Landing.Repo.Migrations.CreateSubscribe do
       timestamps()
     end
 
+    create unique_index :subscribe, [:email]
   end
 end

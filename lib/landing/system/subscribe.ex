@@ -15,6 +15,7 @@ defmodule Landing.Subscribe do
     subscribe
     |> cast(attrs, [:email])
     |> validate_format(:email, ~r/([\w-\.]+)@((?:[\w]+\.)+)([a-zA-Z]{2,4})/)
+    |> unique_constraint(:email)
     |> validate_length(:email, min: 4)
     |> validate_required([:email])
   end

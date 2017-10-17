@@ -1,0 +1,15 @@
+<div class="content">
+  <div class="container wow fadeInUp delay-03s">
+    <div class="row">
+      <div class="logo text-center">
+        <img src="images/logo.png" alt="logo" width="150">
+        <br />
+        <br />
+      <h2 id="d1">THANK YOU FOR SIGNING UP. STAY TUNED </h2>
+      </div>
+
+<!--
+      <h2 id="d2" class="subs-title text-center">SUBSCRIBE TO BE THE FIRST ONE UPDATED.</h2> -->
+    </div>
+  </div>
+</div>

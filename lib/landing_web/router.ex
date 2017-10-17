@@ -16,7 +16,7 @@ defmodule LandingWeb.Router do
   scope "/", LandingWeb do
     pipe_through :browser # Use the default browser stack
 
-    get "/*path", PageController, :index
+    resources "/", PageController, only: [:index, :create]
   end
 
   # Other scopes may use custom stacks.

@@ -12,10 +12,8 @@ exports.config = {
     stylesheets: {
       joinTo: {
         "css/app.css": /^(css)/,
- 			  "css/animate.css": ["assets/css/animate.css"],
         "css/bootstrap.min.css": ["assets/css/bootstrap.min.css"],
         "css/style.css": ["assets/css/style.css"],
-        "css/font-awesome.min.css": ["assets/css/font-awesome.min.css"],
       },
       order: {
         after: ["assets/css/app.css"] // concat app.css last
