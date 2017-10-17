@@ -1,0 +1,95 @@
+<div class="content">
+  <div class="container wow fadeInUp delay-03s">
+    <div class="row">
+      <div class="logo text-center">
+        <img src="images/logo.png" alt="logo" width="150">
+        <br />
+        <br />
+      <h2 id="d1">A NEW WAY OF PARTYING IS LANDING IN TOWN. MYSHINDIG IS COMING SOON!</h2>
+      </div>
+
+
+      <h2 id="d2" class="subs-title text-center">SUBSCRIBE TO BE THE FIRST ONE UPDATED.</h2>
+      <div class="subcription-info text-center">
+        <form class="subscribe_form" action="#" method="post">
+          <input required="" value="" placeholder="Enter your email..." class="email" id="email" name="email" type="email">
+          <input class="subscribe" name="email" value="Subscribe!" type="submit">
+        </form>
+        <p class="sub-p">We Promise to never span you.</p>
+      </div>
+    </div>
+  </div>
+  <section id="about" class="section-padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 col-sm-12 text-center">
+          <div class="about-title">
+            <h2>About Us</h2>
+            <p>My Shindig was born out of a desire to bring to town a new way to party: meeting people attending events held by locals. <br> With MyShindig you can: </p>
+          </div>
+          <div class="col-md-4 col-sm-6 col-xs-12 wow fadeInUp delay-04s">
+            <div class="img">
+              <i class="fa fa-refresh"></i>
+            </div>
+            <h3 class="abt-hd">Meet lots of new people</h3>
+            <p class="abt-hd-content">By creating your unique Shindig you meet new people from all over the world.</p>
+          </div>
+          <div class="col-md-4 col-sm-6 col-xs-12 wow fadeInUp delay-04s">
+            <div class="img">
+              <i class="fa fa-eye"></i>
+            </div>
+            <h3 class="abt-hd">Make Money</h3>
+            <p class="abt-hd-content">When you organize a dinner, a party or a live music show you’ll make some money simply having fun.</p>
+          </div>
+          <div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp delay-04s">
+            <div class="img">
+              <i class="fa fa-cogs"></i>
+            </div>
+            <h3 class="abt-hd">Be part of a community</h3>
+            <p class="abt-hd-content">Shinders are people from all over the world connected by the desire to meet each other and have fun together.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div id="contact-info">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="contact-title">
+            <i class="fa fa-envelope"></i>
+            <h2>Get in touch</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor <br>incididunt ut labore et dolore magna aliqua.</p>
+          </div>
+        </div>
+        <div class="contact col-md-6 wow fadeIn delay-08s">
+          <div class="col-md-10 col-md-offset-1">
+          <div id="note"></div>
+              <div id="sendmessage">Your message has been sent. Thank you!</div>
+                <div id="errormessage"></div>
+                <form action="" method="post" role="form" class="contactForm">
+                    <div class="form-group">
+                        <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                        <div class="validation"></div>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                        <div class="validation"></div>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                        <div class="validation"></div>
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                        <div class="validation"></div>
+                    </div>
+
+                    <div class="text-center"><button type="submit" class="contact-submit">Send Message</button></div>
+                </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
