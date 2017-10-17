@@ -5,14 +5,14 @@
         <img src="images/logo.png" alt="logo" width="150">
         <br />
         <br />
-      <h2 id="d1">A NEW WAY OF PARTYING IS LANDING IN TOWN. MYSHINDIG IS COMING SOON!</h2>
+      <h2 id="d1">Lorem ipsum dolor sit amet, consectetur adipiscing elit</h2>
       </div>
 
 
-      <h2 id="d2" class="subs-title text-center">SUBSCRIBE TO BE THE FIRST ONE UPDATED.</h2>
+      <h2 id="d2" class="subs-title text-center">Excepteur sint occaecat cupidatat non proidentD.</h2>
       <div class="subcription-info text-center">
           <%= render "subscribe.html", Map.put(assigns, :action, page_path(@conn, :create)) %>
-        <p class="sub-p">We Promise to never span you.</p>
+        <p class="sub-p">We Promise to never spam you.</p>
       </div>
     </div>
   </div>
@@ -22,28 +22,28 @@
         <div class="col-md-12 col-sm-12 text-center">
           <div class="about-title">
             <h2>About Us</h2>
-            <p>My Shindig was born out of a desire to bring to town a new way to party: meeting people attending events held by locals. <br> With MyShindig you can: </p>
+            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab </p>
           </div>
           <div class="col-md-4 col-sm-6 col-xs-12 wow fadeInUp delay-04s">
             <div class="img">
               <i class="ion-ios-people"></i>
             </div>
-            <h3 class="abt-hd">Meet lots of new people</h3>
-            <p class="abt-hd-content">By creating your unique Shindig you meet new people from all over the world.</p>
+            <h3 class="abt-hd">Some Stuff</h3>
+            <p class="abt-hd-content">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab</p>
           </div>
           <div class="col-md-4 col-sm-6 col-xs-12 wow fadeInUp delay-04s">
             <div class="img">
               <i class="ion-social-usd"></i>
             </div>
-            <h3 class="abt-hd">Make Money</h3>
-            <p class="abt-hd-content">When you organize a dinner, a party or a live music show you’ll make some money simply having fun.</p>
+            <h3 class="abt-hd">Some Other stuff</h3>
+            <p class="abt-hd-content">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab</p>
           </div>
           <div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp delay-04s">
             <div class="img">
               <i class="ion-android-globe"></i>
             </div>
-            <h3 class="abt-hd">Be part of a community</h3>
-            <p class="abt-hd-content">Shinders are people from all over the world connected by the desire to meet each other and have fun together.</p>
+            <h3 class="abt-hd">More stuff</h3>
+            <p class="abt-hd-content">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab.</p>
           </div>
         </div>
       </div>
@@ -56,7 +56,7 @@
           <div class="contact-title">
             <i class="fa fa-envelope"></i>
             <h2>Get in touch</h2>
-            <p>MyShindig - Via Ulisse Gobbi 5, Milan, Italy.</p>
+            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab.</p>
           </div>
         </div>
         <div class="contact col-md-6 wow fadeIn delay-08s">
@@ -75,9 +75,9 @@
      <div class="row bort">
 
        <div class="copyright">
-            © Copyright MyShindig. All rights reserved.
+            © Copyright By your Compagny Name.
             <div class="credits">
-                Designed by MyShindig</a>
+                Designed by Me</a>
             </div>
        </div>
 

@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>MyShindig | Comming Soon Page</title>
+    <title>Your Title Here</title>
     <link rel="stylesheet" href="<%= static_path(@conn, "/css/app.css") %>">
     <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/bebasneueregular" type="text/css"/>
     <link rel="stylesheet" media="screen" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" type='text/css'>
@@ -15,7 +15,7 @@
   </head>
   <body>
     <%= render @view_module, @view_template, assigns %>
-  
+
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" type="text/javascript"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" type="text/javascript"></script>
     <script src="<%= static_path(@conn, "/js/app.js") %>"></script>

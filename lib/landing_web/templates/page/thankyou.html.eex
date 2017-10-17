@@ -7,8 +7,6 @@
         <br />
       <h2 id="d1">THANK YOU FOR SIGNING UP. STAY TUNED </h2>
       </div>
-<!--
-      <h2 id="d2" class="subs-title text-center">SUBSCRIBE TO BE THE FIRST ONE UPDATED.</h2> -->
       <a href="/"><div class="back-btn">GO BACK
       </div></a>
     </div>
@@ -19,9 +17,9 @@
      <div class="row bort">
 
        <div class="copyright">
-            © Copyright MyShindig. All rights reserved.
+            © Copyright By some dude
             <div class="credits">
-                Designed by MyShindig</a>
+                Designed by my cat</a>
             </div>
        </div>
 
