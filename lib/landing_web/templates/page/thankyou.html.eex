@@ -7,9 +7,24 @@
         <br />
       <h2 id="d1">THANK YOU FOR SIGNING UP. STAY TUNED </h2>
       </div>
-
 <!--
       <h2 id="d2" class="subs-title text-center">SUBSCRIBE TO BE THE FIRST ONE UPDATED.</h2> -->
+      <a href="/"><div class="back-btn">GO BACK
+      </div></a>
     </div>
   </div>
 </div>
+<footer class="footer">
+  <div class="container">
+     <div class="row bort">
+
+       <div class="copyright">
+            © Copyright MyShindig. All rights reserved.
+            <div class="credits">
+                Designed by MyShindig</a>
+            </div>
+       </div>
+
+     </div>
+  </div>
+</footer>

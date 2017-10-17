@@ -15,20 +15,7 @@
   </head>
   <body>
     <%= render @view_module, @view_template, assigns %>
-    <footer class="footer">
-      <div class="container">
-         <div class="row bort">
-
-           <div class="copyright">
-                © Copyright MyShindig. All rights reserved.
-                <div class="credits">
-                    Designed by MyShindig</a>
-                </div>
-           </div>
-
-         </div>
-      </div>
-    </footer>
+  
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" type="text/javascript"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" type="text/javascript"></script>
     <script src="<%= static_path(@conn, "/js/app.js") %>"></script>

@@ -12,8 +12,7 @@ defmodule LandingWeb.PageController do
 
   def create(conn, %{"subscribe" => params}) do
     with {:ok, changeset} <- check_changeset(params) do
-      changeset = Contact.changeset(%Contact{}, params)
-      render(conn, "index.html", changeset: changeset)
+      render conn, "thankyou.html"
     else
       {:error, changeset} -> render(conn, "index.html", changeset: changeset)
     end
@@ -21,8 +20,8 @@ defmodule LandingWeb.PageController do
 
   def create(conn, %{"button" => "Subscribe!", "subscribe" => params}) do
     with {:ok, changeset} <- check_changeset(params) do
-      changeset = Contact.changeset(%Contact{}, params)
-      render(conn, "index.html", changeset: changeset)
+      # changeset = Contact.changeset(%Contact{}, params)
+      render conn, "thankyou.html"
     else
       {:error, changeset} -> render(conn, "index.html", changeset: changeset)
     end
@@ -30,8 +29,7 @@ defmodule LandingWeb.PageController do
 
   def create(conn, %{ "contact" => params}) do
     with {:ok, changeset} <- check_changeset(params) do
-      changeset = Contact.changeset(%Contact{}, params)
-      render(conn, "index.html", changeset: changeset)
+      render conn, "thankyou.html"
     else
       {:error, changeset} -> render(conn, "index.html", changeset: changeset)
     end
