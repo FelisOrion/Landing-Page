@@ -1,3 +1,5 @@
+![alt text](https://raw.githubusercontent.com/FelisOrion/Landing-Page/master/assets/static/images/screenshot1.png)
+![alt text](https://raw.githubusercontent.com/FelisOrion/Landing-Page/master/assets/static/images/screenshot2.png)
 # Landing
 
 To start your Phoenix server:
